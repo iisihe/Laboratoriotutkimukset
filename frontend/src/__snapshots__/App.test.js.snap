@@ -1,0 +1,1773 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    name="App test"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <nav
+          className="navbar sticky-top"
+        >
+          <div
+            className="navbar-brand"
+          >
+            Laboratoriotutkimukset
+          </div>
+          <button
+            className="btn btn-success navbtn"
+            id="btn1"
+            onClick={[Function]}
+          >
+            Lisää tutkimus
+          </button>
+        </nav>,
+        <ReactTable
+          AggregatedComponent={[Function]}
+          ExpanderComponent={[Function]}
+          FilterComponent={[Function]}
+          LoadingComponent={[Function]}
+          NoDataComponent={[Function]}
+          PadRowComponent={[Function]}
+          PaginationComponent={[Function]}
+          PivotValueComponent={[Function]}
+          ResizerComponent={[Function]}
+          TableComponent={[Function]}
+          TbodyComponent={[Function]}
+          TdComponent={[Function]}
+          TfootComponent={[Function]}
+          ThComponent={[Function]}
+          TheadComponent={[Function]}
+          TrComponent={[Function]}
+          TrGroupComponent={[Function]}
+          aggregatedKey="_aggregated"
+          className=""
+          collapseOnDataChange={true}
+          collapseOnPageChange={true}
+          collapseOnSortingChange={true}
+          column={
+            Object {
+              "Aggregated": undefined,
+              "Cell": undefined,
+              "Expander": undefined,
+              "Filter": undefined,
+              "Footer": undefined,
+              "Header": undefined,
+              "Pivot": undefined,
+              "PivotValue": undefined,
+              "aggregate": undefined,
+              "className": "",
+              "filterAll": false,
+              "filterMethod": undefined,
+              "filterable": undefined,
+              "footerClassName": "",
+              "footerStyle": Object {},
+              "getFooterProps": [Function],
+              "getHeaderProps": [Function],
+              "getProps": [Function],
+              "headerClassName": "",
+              "headerStyle": Object {},
+              "minWidth": 100,
+              "resizable": undefined,
+              "show": true,
+              "sortMethod": undefined,
+              "sortable": undefined,
+              "style": Object {},
+            }
+          }
+          columns={
+            Array [
+              Object {
+                "Filter": [Function],
+                "Header": "Tunnus",
+                "accessor": "symbol",
+              },
+              Object {
+                "Filter": [Function],
+                "Header": "Nimi",
+                "accessor": "name",
+              },
+              Object {
+                "Header": "Viitearvot",
+                "accessor": "reference_ranges",
+                "filterable": false,
+                "style": Object {
+                  "whiteSpace": "unset",
+                },
+              },
+              Object {
+                "Header": "Mittayksikkö",
+                "accessor": "unit",
+                "filterable": false,
+              },
+              Object {
+                "Cell": [Function],
+                "Header": "",
+                "filterable": false,
+              },
+            ]
+          }
+          data={Array []}
+          defaultExpanded={Object {}}
+          defaultFilterMethod={[Function]}
+          defaultFiltered={Array []}
+          defaultPageSize={10}
+          defaultResized={Array []}
+          defaultSortDesc={false}
+          defaultSortMethod={[Function]}
+          defaultSorted={Array []}
+          expanderDefaults={
+            Object {
+              "filterable": false,
+              "resizable": false,
+              "sortable": false,
+              "width": 35,
+            }
+          }
+          filterable={true}
+          freezeWhenExpanded={false}
+          getLoadingProps={[Function]}
+          getNoDataProps={[Function]}
+          getPaginationProps={[Function]}
+          getProps={[Function]}
+          getResizerProps={[Function]}
+          getTableProps={[Function]}
+          getTbodyProps={[Function]}
+          getTdProps={[Function]}
+          getTfootProps={[Function]}
+          getTfootTdProps={[Function]}
+          getTfootTrProps={[Function]}
+          getTheadFilterProps={[Function]}
+          getTheadFilterThProps={[Function]}
+          getTheadFilterTrProps={[Function]}
+          getTheadGroupProps={[Function]}
+          getTheadGroupThProps={[Function]}
+          getTheadGroupTrProps={[Function]}
+          getTheadProps={[Function]}
+          getTheadThProps={[Function]}
+          getTheadTrProps={[Function]}
+          getTrGroupProps={[Function]}
+          getTrProps={[Function]}
+          groupedByPivotKey="_groupedByPivot"
+          indexKey="_index"
+          loading={false}
+          loadingText="Ladataan..."
+          multiSort={true}
+          nestingLevelKey="_nestingLevel"
+          nextText="Seuraava"
+          noDataText="Ei laboratoriotutkimuksia"
+          ofText="/"
+          onFetchData={[Function]}
+          originalKey="_original"
+          pageSizeOptions={
+            Array [
+              5,
+              10,
+              20,
+              25,
+              50,
+              100,
+            ]
+          }
+          pageText="Sivu"
+          pivotDefaults={Object {}}
+          pivotIDKey="_pivotID"
+          pivotValKey="_pivotVal"
+          previousText="Edellinen"
+          resizable={true}
+          resolveData={[Function]}
+          rowsText="Riviä"
+          showPageJump={true}
+          showPageSizeOptions={true}
+          showPagination={true}
+          showPaginationBottom={true}
+          showPaginationTop={false}
+          sortable={true}
+          style={Object {}}
+          subRowsKey="_subRows"
+        />,
+        null,
+        null,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="navbar-brand"
+            >
+              Laboratoriotutkimukset
+            </div>,
+            <button
+              className="btn btn-success navbtn"
+              id="btn1"
+              onClick={[Function]}
+            >
+              Lisää tutkimus
+            </button>,
+          ],
+          "className": "navbar sticky-top",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Laboratoriotutkimukset",
+              "className": "navbar-brand",
+            },
+            "ref": null,
+            "rendered": "Laboratoriotutkimukset",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lisää tutkimus",
+              "className": "btn btn-success navbtn",
+              "id": "btn1",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Lisää tutkimus",
+            "type": "button",
+          },
+        ],
+        "type": "nav",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "AggregatedComponent": [Function],
+          "ExpanderComponent": [Function],
+          "FilterComponent": [Function],
+          "LoadingComponent": [Function],
+          "NextComponent": undefined,
+          "NoDataComponent": [Function],
+          "PadRowComponent": [Function],
+          "PaginationComponent": [Function],
+          "PivotComponent": undefined,
+          "PivotValueComponent": [Function],
+          "PreviousComponent": undefined,
+          "ResizerComponent": [Function],
+          "TableComponent": [Function],
+          "TbodyComponent": [Function],
+          "TdComponent": [Function],
+          "TfootComponent": [Function],
+          "ThComponent": [Function],
+          "TheadComponent": [Function],
+          "TrComponent": [Function],
+          "TrGroupComponent": [Function],
+          "aggregatedKey": "_aggregated",
+          "className": "",
+          "collapseOnDataChange": true,
+          "collapseOnPageChange": true,
+          "collapseOnSortingChange": true,
+          "column": Object {
+            "Aggregated": undefined,
+            "Cell": undefined,
+            "Expander": undefined,
+            "Filter": undefined,
+            "Footer": undefined,
+            "Header": undefined,
+            "Pivot": undefined,
+            "PivotValue": undefined,
+            "aggregate": undefined,
+            "className": "",
+            "filterAll": false,
+            "filterMethod": undefined,
+            "filterable": undefined,
+            "footerClassName": "",
+            "footerStyle": Object {},
+            "getFooterProps": [Function],
+            "getHeaderProps": [Function],
+            "getProps": [Function],
+            "headerClassName": "",
+            "headerStyle": Object {},
+            "minWidth": 100,
+            "resizable": undefined,
+            "show": true,
+            "sortMethod": undefined,
+            "sortable": undefined,
+            "style": Object {},
+          },
+          "columns": Array [
+            Object {
+              "Filter": [Function],
+              "Header": "Tunnus",
+              "accessor": "symbol",
+            },
+            Object {
+              "Filter": [Function],
+              "Header": "Nimi",
+              "accessor": "name",
+            },
+            Object {
+              "Header": "Viitearvot",
+              "accessor": "reference_ranges",
+              "filterable": false,
+              "style": Object {
+                "whiteSpace": "unset",
+              },
+            },
+            Object {
+              "Header": "Mittayksikkö",
+              "accessor": "unit",
+              "filterable": false,
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "",
+              "filterable": false,
+            },
+          ],
+          "data": Array [],
+          "defaultExpanded": Object {},
+          "defaultFilterMethod": [Function],
+          "defaultFiltered": Array [],
+          "defaultPageSize": 10,
+          "defaultResized": Array [],
+          "defaultSortDesc": false,
+          "defaultSortMethod": [Function],
+          "defaultSorted": Array [],
+          "expanderDefaults": Object {
+            "filterable": false,
+            "resizable": false,
+            "sortable": false,
+            "width": 35,
+          },
+          "filterable": true,
+          "freezeWhenExpanded": false,
+          "getLoadingProps": [Function],
+          "getNoDataProps": [Function],
+          "getPaginationProps": [Function],
+          "getProps": [Function],
+          "getResizerProps": [Function],
+          "getTableProps": [Function],
+          "getTbodyProps": [Function],
+          "getTdProps": [Function],
+          "getTfootProps": [Function],
+          "getTfootTdProps": [Function],
+          "getTfootTrProps": [Function],
+          "getTheadFilterProps": [Function],
+          "getTheadFilterThProps": [Function],
+          "getTheadFilterTrProps": [Function],
+          "getTheadGroupProps": [Function],
+          "getTheadGroupThProps": [Function],
+          "getTheadGroupTrProps": [Function],
+          "getTheadProps": [Function],
+          "getTheadThProps": [Function],
+          "getTheadTrProps": [Function],
+          "getTrGroupProps": [Function],
+          "getTrProps": [Function],
+          "groupedByPivotKey": "_groupedByPivot",
+          "indexKey": "_index",
+          "loading": false,
+          "loadingText": "Ladataan...",
+          "multiSort": true,
+          "nestingLevelKey": "_nestingLevel",
+          "nextText": "Seuraava",
+          "noDataText": "Ei laboratoriotutkimuksia",
+          "ofText": "/",
+          "onExpandedChange": undefined,
+          "onFetchData": [Function],
+          "onFilteredChange": undefined,
+          "onPageChange": undefined,
+          "onPageSizeChange": undefined,
+          "onResizedChange": undefined,
+          "onSortedChange": undefined,
+          "originalKey": "_original",
+          "pageSizeOptions": Array [
+            5,
+            10,
+            20,
+            25,
+            50,
+            100,
+          ],
+          "pageText": "Sivu",
+          "pivotBy": undefined,
+          "pivotDefaults": Object {},
+          "pivotIDKey": "_pivotID",
+          "pivotValKey": "_pivotVal",
+          "previousText": "Edellinen",
+          "resizable": true,
+          "resolveData": [Function],
+          "rowsText": "Riviä",
+          "showPageJump": true,
+          "showPageSizeOptions": true,
+          "showPagination": true,
+          "showPaginationBottom": true,
+          "showPaginationTop": false,
+          "sortable": true,
+          "style": Object {},
+          "subRowsKey": "_subRows",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      null,
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <nav
+            className="navbar sticky-top"
+          >
+            <div
+              className="navbar-brand"
+            >
+              Laboratoriotutkimukset
+            </div>
+            <button
+              className="btn btn-success navbtn"
+              id="btn1"
+              onClick={[Function]}
+            >
+              Lisää tutkimus
+            </button>
+          </nav>,
+          <ReactTable
+            AggregatedComponent={[Function]}
+            ExpanderComponent={[Function]}
+            FilterComponent={[Function]}
+            LoadingComponent={[Function]}
+            NoDataComponent={[Function]}
+            PadRowComponent={[Function]}
+            PaginationComponent={[Function]}
+            PivotValueComponent={[Function]}
+            ResizerComponent={[Function]}
+            TableComponent={[Function]}
+            TbodyComponent={[Function]}
+            TdComponent={[Function]}
+            TfootComponent={[Function]}
+            ThComponent={[Function]}
+            TheadComponent={[Function]}
+            TrComponent={[Function]}
+            TrGroupComponent={[Function]}
+            aggregatedKey="_aggregated"
+            className=""
+            collapseOnDataChange={true}
+            collapseOnPageChange={true}
+            collapseOnSortingChange={true}
+            column={
+              Object {
+                "Aggregated": undefined,
+                "Cell": undefined,
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": undefined,
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "aggregate": undefined,
+                "className": "",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": undefined,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "",
+                "headerStyle": Object {},
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": undefined,
+                "style": Object {},
+              }
+            }
+            columns={
+              Array [
+                Object {
+                  "Filter": [Function],
+                  "Header": "Tunnus",
+                  "accessor": "symbol",
+                },
+                Object {
+                  "Filter": [Function],
+                  "Header": "Nimi",
+                  "accessor": "name",
+                },
+                Object {
+                  "Header": "Viitearvot",
+                  "accessor": "reference_ranges",
+                  "filterable": false,
+                  "style": Object {
+                    "whiteSpace": "unset",
+                  },
+                },
+                Object {
+                  "Header": "Mittayksikkö",
+                  "accessor": "unit",
+                  "filterable": false,
+                },
+                Object {
+                  "Cell": [Function],
+                  "Header": "",
+                  "filterable": false,
+                },
+              ]
+            }
+            data={Array []}
+            defaultExpanded={Object {}}
+            defaultFilterMethod={[Function]}
+            defaultFiltered={Array []}
+            defaultPageSize={10}
+            defaultResized={Array []}
+            defaultSortDesc={false}
+            defaultSortMethod={[Function]}
+            defaultSorted={Array []}
+            expanderDefaults={
+              Object {
+                "filterable": false,
+                "resizable": false,
+                "sortable": false,
+                "width": 35,
+              }
+            }
+            filterable={true}
+            freezeWhenExpanded={false}
+            getLoadingProps={[Function]}
+            getNoDataProps={[Function]}
+            getPaginationProps={[Function]}
+            getProps={[Function]}
+            getResizerProps={[Function]}
+            getTableProps={[Function]}
+            getTbodyProps={[Function]}
+            getTdProps={[Function]}
+            getTfootProps={[Function]}
+            getTfootTdProps={[Function]}
+            getTfootTrProps={[Function]}
+            getTheadFilterProps={[Function]}
+            getTheadFilterThProps={[Function]}
+            getTheadFilterTrProps={[Function]}
+            getTheadGroupProps={[Function]}
+            getTheadGroupThProps={[Function]}
+            getTheadGroupTrProps={[Function]}
+            getTheadProps={[Function]}
+            getTheadThProps={[Function]}
+            getTheadTrProps={[Function]}
+            getTrGroupProps={[Function]}
+            getTrProps={[Function]}
+            groupedByPivotKey="_groupedByPivot"
+            indexKey="_index"
+            loading={false}
+            loadingText="Ladataan..."
+            multiSort={true}
+            nestingLevelKey="_nestingLevel"
+            nextText="Seuraava"
+            noDataText="Ei laboratoriotutkimuksia"
+            ofText="/"
+            onFetchData={[Function]}
+            originalKey="_original"
+            pageSizeOptions={
+              Array [
+                5,
+                10,
+                20,
+                25,
+                50,
+                100,
+              ]
+            }
+            pageText="Sivu"
+            pivotDefaults={Object {}}
+            pivotIDKey="_pivotID"
+            pivotValKey="_pivotVal"
+            previousText="Edellinen"
+            resizable={true}
+            resolveData={[Function]}
+            rowsText="Riviä"
+            showPageJump={true}
+            showPageSizeOptions={true}
+            showPagination={true}
+            showPaginationBottom={true}
+            showPaginationTop={false}
+            sortable={true}
+            style={Object {}}
+            subRowsKey="_subRows"
+          />,
+          null,
+          null,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="navbar-brand"
+              >
+                Laboratoriotutkimukset
+              </div>,
+              <button
+                className="btn btn-success navbtn"
+                id="btn1"
+                onClick={[Function]}
+              >
+                Lisää tutkimus
+              </button>,
+            ],
+            "className": "navbar sticky-top",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Laboratoriotutkimukset",
+                "className": "navbar-brand",
+              },
+              "ref": null,
+              "rendered": "Laboratoriotutkimukset",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lisää tutkimus",
+                "className": "btn btn-success navbtn",
+                "id": "btn1",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Lisää tutkimus",
+              "type": "button",
+            },
+          ],
+          "type": "nav",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "AggregatedComponent": [Function],
+            "ExpanderComponent": [Function],
+            "FilterComponent": [Function],
+            "LoadingComponent": [Function],
+            "NextComponent": undefined,
+            "NoDataComponent": [Function],
+            "PadRowComponent": [Function],
+            "PaginationComponent": [Function],
+            "PivotComponent": undefined,
+            "PivotValueComponent": [Function],
+            "PreviousComponent": undefined,
+            "ResizerComponent": [Function],
+            "TableComponent": [Function],
+            "TbodyComponent": [Function],
+            "TdComponent": [Function],
+            "TfootComponent": [Function],
+            "ThComponent": [Function],
+            "TheadComponent": [Function],
+            "TrComponent": [Function],
+            "TrGroupComponent": [Function],
+            "aggregatedKey": "_aggregated",
+            "className": "",
+            "collapseOnDataChange": true,
+            "collapseOnPageChange": true,
+            "collapseOnSortingChange": true,
+            "column": Object {
+              "Aggregated": undefined,
+              "Cell": undefined,
+              "Expander": undefined,
+              "Filter": undefined,
+              "Footer": undefined,
+              "Header": undefined,
+              "Pivot": undefined,
+              "PivotValue": undefined,
+              "aggregate": undefined,
+              "className": "",
+              "filterAll": false,
+              "filterMethod": undefined,
+              "filterable": undefined,
+              "footerClassName": "",
+              "footerStyle": Object {},
+              "getFooterProps": [Function],
+              "getHeaderProps": [Function],
+              "getProps": [Function],
+              "headerClassName": "",
+              "headerStyle": Object {},
+              "minWidth": 100,
+              "resizable": undefined,
+              "show": true,
+              "sortMethod": undefined,
+              "sortable": undefined,
+              "style": Object {},
+            },
+            "columns": Array [
+              Object {
+                "Filter": [Function],
+                "Header": "Tunnus",
+                "accessor": "symbol",
+              },
+              Object {
+                "Filter": [Function],
+                "Header": "Nimi",
+                "accessor": "name",
+              },
+              Object {
+                "Header": "Viitearvot",
+                "accessor": "reference_ranges",
+                "filterable": false,
+                "style": Object {
+                  "whiteSpace": "unset",
+                },
+              },
+              Object {
+                "Header": "Mittayksikkö",
+                "accessor": "unit",
+                "filterable": false,
+              },
+              Object {
+                "Cell": [Function],
+                "Header": "",
+                "filterable": false,
+              },
+            ],
+            "data": Array [],
+            "defaultExpanded": Object {},
+            "defaultFilterMethod": [Function],
+            "defaultFiltered": Array [],
+            "defaultPageSize": 10,
+            "defaultResized": Array [],
+            "defaultSortDesc": false,
+            "defaultSortMethod": [Function],
+            "defaultSorted": Array [],
+            "expanderDefaults": Object {
+              "filterable": false,
+              "resizable": false,
+              "sortable": false,
+              "width": 35,
+            },
+            "filterable": true,
+            "freezeWhenExpanded": false,
+            "getLoadingProps": [Function],
+            "getNoDataProps": [Function],
+            "getPaginationProps": [Function],
+            "getProps": [Function],
+            "getResizerProps": [Function],
+            "getTableProps": [Function],
+            "getTbodyProps": [Function],
+            "getTdProps": [Function],
+            "getTfootProps": [Function],
+            "getTfootTdProps": [Function],
+            "getTfootTrProps": [Function],
+            "getTheadFilterProps": [Function],
+            "getTheadFilterThProps": [Function],
+            "getTheadFilterTrProps": [Function],
+            "getTheadGroupProps": [Function],
+            "getTheadGroupThProps": [Function],
+            "getTheadGroupTrProps": [Function],
+            "getTheadProps": [Function],
+            "getTheadThProps": [Function],
+            "getTheadTrProps": [Function],
+            "getTrGroupProps": [Function],
+            "getTrProps": [Function],
+            "groupedByPivotKey": "_groupedByPivot",
+            "indexKey": "_index",
+            "loading": false,
+            "loadingText": "Ladataan...",
+            "multiSort": true,
+            "nestingLevelKey": "_nestingLevel",
+            "nextText": "Seuraava",
+            "noDataText": "Ei laboratoriotutkimuksia",
+            "ofText": "/",
+            "onExpandedChange": undefined,
+            "onFetchData": [Function],
+            "onFilteredChange": undefined,
+            "onPageChange": undefined,
+            "onPageSizeChange": undefined,
+            "onResizedChange": undefined,
+            "onSortedChange": undefined,
+            "originalKey": "_original",
+            "pageSizeOptions": Array [
+              5,
+              10,
+              20,
+              25,
+              50,
+              100,
+            ],
+            "pageText": "Sivu",
+            "pivotBy": undefined,
+            "pivotDefaults": Object {},
+            "pivotIDKey": "_pivotID",
+            "pivotValKey": "_pivotVal",
+            "previousText": "Edellinen",
+            "resizable": true,
+            "resolveData": [Function],
+            "rowsText": "Riviä",
+            "showPageJump": true,
+            "showPageSizeOptions": true,
+            "showPagination": true,
+            "showPaginationBottom": true,
+            "showPaginationTop": false,
+            "sortable": true,
+            "style": Object {},
+            "subRowsKey": "_subRows",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`App should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    name="App test"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <nav
+          className="navbar sticky-top"
+        >
+          <div
+            className="navbar-brand"
+          >
+            Laboratoriotutkimukset
+          </div>
+          <button
+            className="btn btn-success navbtn"
+            onClick={[Function]}
+          >
+            Lisää tutkimus
+          </button>
+        </nav>,
+        <ReactTable
+          AggregatedComponent={[Function]}
+          ExpanderComponent={[Function]}
+          FilterComponent={[Function]}
+          LoadingComponent={[Function]}
+          NoDataComponent={[Function]}
+          PadRowComponent={[Function]}
+          PaginationComponent={[Function]}
+          PivotValueComponent={[Function]}
+          ResizerComponent={[Function]}
+          TableComponent={[Function]}
+          TbodyComponent={[Function]}
+          TdComponent={[Function]}
+          TfootComponent={[Function]}
+          ThComponent={[Function]}
+          TheadComponent={[Function]}
+          TrComponent={[Function]}
+          TrGroupComponent={[Function]}
+          aggregatedKey="_aggregated"
+          className=""
+          collapseOnDataChange={true}
+          collapseOnPageChange={true}
+          collapseOnSortingChange={true}
+          column={
+            Object {
+              "Aggregated": undefined,
+              "Cell": undefined,
+              "Expander": undefined,
+              "Filter": undefined,
+              "Footer": undefined,
+              "Header": undefined,
+              "Pivot": undefined,
+              "PivotValue": undefined,
+              "aggregate": undefined,
+              "className": "",
+              "filterAll": false,
+              "filterMethod": undefined,
+              "filterable": undefined,
+              "footerClassName": "",
+              "footerStyle": Object {},
+              "getFooterProps": [Function],
+              "getHeaderProps": [Function],
+              "getProps": [Function],
+              "headerClassName": "",
+              "headerStyle": Object {},
+              "minWidth": 100,
+              "resizable": undefined,
+              "show": true,
+              "sortMethod": undefined,
+              "sortable": undefined,
+              "style": Object {},
+            }
+          }
+          columns={
+            Array [
+              Object {
+                "Filter": [Function],
+                "Header": "Tunnus",
+                "accessor": "symbol",
+              },
+              Object {
+                "Filter": [Function],
+                "Header": "Nimi",
+                "accessor": "name",
+              },
+              Object {
+                "Header": "Viitearvot",
+                "accessor": "reference_ranges",
+                "filterable": false,
+                "style": Object {
+                  "whiteSpace": "unset",
+                },
+              },
+              Object {
+                "Header": "Mittayksikkö",
+                "accessor": "unit",
+                "filterable": false,
+              },
+              Object {
+                "Cell": [Function],
+                "Header": "",
+                "filterable": false,
+              },
+            ]
+          }
+          data={Array []}
+          defaultExpanded={Object {}}
+          defaultFilterMethod={[Function]}
+          defaultFiltered={Array []}
+          defaultPageSize={10}
+          defaultResized={Array []}
+          defaultSortDesc={false}
+          defaultSortMethod={[Function]}
+          defaultSorted={Array []}
+          expanderDefaults={
+            Object {
+              "filterable": false,
+              "resizable": false,
+              "sortable": false,
+              "width": 35,
+            }
+          }
+          filterable={true}
+          freezeWhenExpanded={false}
+          getLoadingProps={[Function]}
+          getNoDataProps={[Function]}
+          getPaginationProps={[Function]}
+          getProps={[Function]}
+          getResizerProps={[Function]}
+          getTableProps={[Function]}
+          getTbodyProps={[Function]}
+          getTdProps={[Function]}
+          getTfootProps={[Function]}
+          getTfootTdProps={[Function]}
+          getTfootTrProps={[Function]}
+          getTheadFilterProps={[Function]}
+          getTheadFilterThProps={[Function]}
+          getTheadFilterTrProps={[Function]}
+          getTheadGroupProps={[Function]}
+          getTheadGroupThProps={[Function]}
+          getTheadGroupTrProps={[Function]}
+          getTheadProps={[Function]}
+          getTheadThProps={[Function]}
+          getTheadTrProps={[Function]}
+          getTrGroupProps={[Function]}
+          getTrProps={[Function]}
+          groupedByPivotKey="_groupedByPivot"
+          indexKey="_index"
+          loading={false}
+          loadingText="Ladataan..."
+          multiSort={true}
+          nestingLevelKey="_nestingLevel"
+          nextText="Seuraava"
+          noDataText="Ei laboratoriotutkimuksia"
+          ofText="/"
+          onFetchData={[Function]}
+          originalKey="_original"
+          pageSizeOptions={
+            Array [
+              5,
+              10,
+              20,
+              25,
+              50,
+              100,
+            ]
+          }
+          pageText="Sivu"
+          pivotDefaults={Object {}}
+          pivotIDKey="_pivotID"
+          pivotValKey="_pivotVal"
+          previousText="Edellinen"
+          resizable={true}
+          resolveData={[Function]}
+          rowsText="Riviä"
+          showPageJump={true}
+          showPageSizeOptions={true}
+          showPagination={true}
+          showPaginationBottom={true}
+          showPaginationTop={false}
+          sortable={true}
+          style={Object {}}
+          subRowsKey="_subRows"
+        />,
+        null,
+        null,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="navbar-brand"
+            >
+              Laboratoriotutkimukset
+            </div>,
+            <button
+              className="btn btn-success navbtn"
+              onClick={[Function]}
+            >
+              Lisää tutkimus
+            </button>,
+          ],
+          "className": "navbar sticky-top",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Laboratoriotutkimukset",
+              "className": "navbar-brand",
+            },
+            "ref": null,
+            "rendered": "Laboratoriotutkimukset",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lisää tutkimus",
+              "className": "btn btn-success navbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Lisää tutkimus",
+            "type": "button",
+          },
+        ],
+        "type": "nav",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "AggregatedComponent": [Function],
+          "ExpanderComponent": [Function],
+          "FilterComponent": [Function],
+          "LoadingComponent": [Function],
+          "NextComponent": undefined,
+          "NoDataComponent": [Function],
+          "PadRowComponent": [Function],
+          "PaginationComponent": [Function],
+          "PivotComponent": undefined,
+          "PivotValueComponent": [Function],
+          "PreviousComponent": undefined,
+          "ResizerComponent": [Function],
+          "TableComponent": [Function],
+          "TbodyComponent": [Function],
+          "TdComponent": [Function],
+          "TfootComponent": [Function],
+          "ThComponent": [Function],
+          "TheadComponent": [Function],
+          "TrComponent": [Function],
+          "TrGroupComponent": [Function],
+          "aggregatedKey": "_aggregated",
+          "className": "",
+          "collapseOnDataChange": true,
+          "collapseOnPageChange": true,
+          "collapseOnSortingChange": true,
+          "column": Object {
+            "Aggregated": undefined,
+            "Cell": undefined,
+            "Expander": undefined,
+            "Filter": undefined,
+            "Footer": undefined,
+            "Header": undefined,
+            "Pivot": undefined,
+            "PivotValue": undefined,
+            "aggregate": undefined,
+            "className": "",
+            "filterAll": false,
+            "filterMethod": undefined,
+            "filterable": undefined,
+            "footerClassName": "",
+            "footerStyle": Object {},
+            "getFooterProps": [Function],
+            "getHeaderProps": [Function],
+            "getProps": [Function],
+            "headerClassName": "",
+            "headerStyle": Object {},
+            "minWidth": 100,
+            "resizable": undefined,
+            "show": true,
+            "sortMethod": undefined,
+            "sortable": undefined,
+            "style": Object {},
+          },
+          "columns": Array [
+            Object {
+              "Filter": [Function],
+              "Header": "Tunnus",
+              "accessor": "symbol",
+            },
+            Object {
+              "Filter": [Function],
+              "Header": "Nimi",
+              "accessor": "name",
+            },
+            Object {
+              "Header": "Viitearvot",
+              "accessor": "reference_ranges",
+              "filterable": false,
+              "style": Object {
+                "whiteSpace": "unset",
+              },
+            },
+            Object {
+              "Header": "Mittayksikkö",
+              "accessor": "unit",
+              "filterable": false,
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "",
+              "filterable": false,
+            },
+          ],
+          "data": Array [],
+          "defaultExpanded": Object {},
+          "defaultFilterMethod": [Function],
+          "defaultFiltered": Array [],
+          "defaultPageSize": 10,
+          "defaultResized": Array [],
+          "defaultSortDesc": false,
+          "defaultSortMethod": [Function],
+          "defaultSorted": Array [],
+          "expanderDefaults": Object {
+            "filterable": false,
+            "resizable": false,
+            "sortable": false,
+            "width": 35,
+          },
+          "filterable": true,
+          "freezeWhenExpanded": false,
+          "getLoadingProps": [Function],
+          "getNoDataProps": [Function],
+          "getPaginationProps": [Function],
+          "getProps": [Function],
+          "getResizerProps": [Function],
+          "getTableProps": [Function],
+          "getTbodyProps": [Function],
+          "getTdProps": [Function],
+          "getTfootProps": [Function],
+          "getTfootTdProps": [Function],
+          "getTfootTrProps": [Function],
+          "getTheadFilterProps": [Function],
+          "getTheadFilterThProps": [Function],
+          "getTheadFilterTrProps": [Function],
+          "getTheadGroupProps": [Function],
+          "getTheadGroupThProps": [Function],
+          "getTheadGroupTrProps": [Function],
+          "getTheadProps": [Function],
+          "getTheadThProps": [Function],
+          "getTheadTrProps": [Function],
+          "getTrGroupProps": [Function],
+          "getTrProps": [Function],
+          "groupedByPivotKey": "_groupedByPivot",
+          "indexKey": "_index",
+          "loading": false,
+          "loadingText": "Ladataan...",
+          "multiSort": true,
+          "nestingLevelKey": "_nestingLevel",
+          "nextText": "Seuraava",
+          "noDataText": "Ei laboratoriotutkimuksia",
+          "ofText": "/",
+          "onExpandedChange": undefined,
+          "onFetchData": [Function],
+          "onFilteredChange": undefined,
+          "onPageChange": undefined,
+          "onPageSizeChange": undefined,
+          "onResizedChange": undefined,
+          "onSortedChange": undefined,
+          "originalKey": "_original",
+          "pageSizeOptions": Array [
+            5,
+            10,
+            20,
+            25,
+            50,
+            100,
+          ],
+          "pageText": "Sivu",
+          "pivotBy": undefined,
+          "pivotDefaults": Object {},
+          "pivotIDKey": "_pivotID",
+          "pivotValKey": "_pivotVal",
+          "previousText": "Edellinen",
+          "resizable": true,
+          "resolveData": [Function],
+          "rowsText": "Riviä",
+          "showPageJump": true,
+          "showPageSizeOptions": true,
+          "showPagination": true,
+          "showPaginationBottom": true,
+          "showPaginationTop": false,
+          "sortable": true,
+          "style": Object {},
+          "subRowsKey": "_subRows",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      null,
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <nav
+            className="navbar sticky-top"
+          >
+            <div
+              className="navbar-brand"
+            >
+              Laboratoriotutkimukset
+            </div>
+            <button
+              className="btn btn-success navbtn"
+              onClick={[Function]}
+            >
+              Lisää tutkimus
+            </button>
+          </nav>,
+          <ReactTable
+            AggregatedComponent={[Function]}
+            ExpanderComponent={[Function]}
+            FilterComponent={[Function]}
+            LoadingComponent={[Function]}
+            NoDataComponent={[Function]}
+            PadRowComponent={[Function]}
+            PaginationComponent={[Function]}
+            PivotValueComponent={[Function]}
+            ResizerComponent={[Function]}
+            TableComponent={[Function]}
+            TbodyComponent={[Function]}
+            TdComponent={[Function]}
+            TfootComponent={[Function]}
+            ThComponent={[Function]}
+            TheadComponent={[Function]}
+            TrComponent={[Function]}
+            TrGroupComponent={[Function]}
+            aggregatedKey="_aggregated"
+            className=""
+            collapseOnDataChange={true}
+            collapseOnPageChange={true}
+            collapseOnSortingChange={true}
+            column={
+              Object {
+                "Aggregated": undefined,
+                "Cell": undefined,
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": undefined,
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "aggregate": undefined,
+                "className": "",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": undefined,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "",
+                "headerStyle": Object {},
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": undefined,
+                "style": Object {},
+              }
+            }
+            columns={
+              Array [
+                Object {
+                  "Filter": [Function],
+                  "Header": "Tunnus",
+                  "accessor": "symbol",
+                },
+                Object {
+                  "Filter": [Function],
+                  "Header": "Nimi",
+                  "accessor": "name",
+                },
+                Object {
+                  "Header": "Viitearvot",
+                  "accessor": "reference_ranges",
+                  "filterable": false,
+                  "style": Object {
+                    "whiteSpace": "unset",
+                  },
+                },
+                Object {
+                  "Header": "Mittayksikkö",
+                  "accessor": "unit",
+                  "filterable": false,
+                },
+                Object {
+                  "Cell": [Function],
+                  "Header": "",
+                  "filterable": false,
+                },
+              ]
+            }
+            data={Array []}
+            defaultExpanded={Object {}}
+            defaultFilterMethod={[Function]}
+            defaultFiltered={Array []}
+            defaultPageSize={10}
+            defaultResized={Array []}
+            defaultSortDesc={false}
+            defaultSortMethod={[Function]}
+            defaultSorted={Array []}
+            expanderDefaults={
+              Object {
+                "filterable": false,
+                "resizable": false,
+                "sortable": false,
+                "width": 35,
+              }
+            }
+            filterable={true}
+            freezeWhenExpanded={false}
+            getLoadingProps={[Function]}
+            getNoDataProps={[Function]}
+            getPaginationProps={[Function]}
+            getProps={[Function]}
+            getResizerProps={[Function]}
+            getTableProps={[Function]}
+            getTbodyProps={[Function]}
+            getTdProps={[Function]}
+            getTfootProps={[Function]}
+            getTfootTdProps={[Function]}
+            getTfootTrProps={[Function]}
+            getTheadFilterProps={[Function]}
+            getTheadFilterThProps={[Function]}
+            getTheadFilterTrProps={[Function]}
+            getTheadGroupProps={[Function]}
+            getTheadGroupThProps={[Function]}
+            getTheadGroupTrProps={[Function]}
+            getTheadProps={[Function]}
+            getTheadThProps={[Function]}
+            getTheadTrProps={[Function]}
+            getTrGroupProps={[Function]}
+            getTrProps={[Function]}
+            groupedByPivotKey="_groupedByPivot"
+            indexKey="_index"
+            loading={false}
+            loadingText="Ladataan..."
+            multiSort={true}
+            nestingLevelKey="_nestingLevel"
+            nextText="Seuraava"
+            noDataText="Ei laboratoriotutkimuksia"
+            ofText="/"
+            onFetchData={[Function]}
+            originalKey="_original"
+            pageSizeOptions={
+              Array [
+                5,
+                10,
+                20,
+                25,
+                50,
+                100,
+              ]
+            }
+            pageText="Sivu"
+            pivotDefaults={Object {}}
+            pivotIDKey="_pivotID"
+            pivotValKey="_pivotVal"
+            previousText="Edellinen"
+            resizable={true}
+            resolveData={[Function]}
+            rowsText="Riviä"
+            showPageJump={true}
+            showPageSizeOptions={true}
+            showPagination={true}
+            showPaginationBottom={true}
+            showPaginationTop={false}
+            sortable={true}
+            style={Object {}}
+            subRowsKey="_subRows"
+          />,
+          null,
+          null,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="navbar-brand"
+              >
+                Laboratoriotutkimukset
+              </div>,
+              <button
+                className="btn btn-success navbtn"
+                onClick={[Function]}
+              >
+                Lisää tutkimus
+              </button>,
+            ],
+            "className": "navbar sticky-top",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Laboratoriotutkimukset",
+                "className": "navbar-brand",
+              },
+              "ref": null,
+              "rendered": "Laboratoriotutkimukset",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lisää tutkimus",
+                "className": "btn btn-success navbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Lisää tutkimus",
+              "type": "button",
+            },
+          ],
+          "type": "nav",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "AggregatedComponent": [Function],
+            "ExpanderComponent": [Function],
+            "FilterComponent": [Function],
+            "LoadingComponent": [Function],
+            "NextComponent": undefined,
+            "NoDataComponent": [Function],
+            "PadRowComponent": [Function],
+            "PaginationComponent": [Function],
+            "PivotComponent": undefined,
+            "PivotValueComponent": [Function],
+            "PreviousComponent": undefined,
+            "ResizerComponent": [Function],
+            "TableComponent": [Function],
+            "TbodyComponent": [Function],
+            "TdComponent": [Function],
+            "TfootComponent": [Function],
+            "ThComponent": [Function],
+            "TheadComponent": [Function],
+            "TrComponent": [Function],
+            "TrGroupComponent": [Function],
+            "aggregatedKey": "_aggregated",
+            "className": "",
+            "collapseOnDataChange": true,
+            "collapseOnPageChange": true,
+            "collapseOnSortingChange": true,
+            "column": Object {
+              "Aggregated": undefined,
+              "Cell": undefined,
+              "Expander": undefined,
+              "Filter": undefined,
+              "Footer": undefined,
+              "Header": undefined,
+              "Pivot": undefined,
+              "PivotValue": undefined,
+              "aggregate": undefined,
+              "className": "",
+              "filterAll": false,
+              "filterMethod": undefined,
+              "filterable": undefined,
+              "footerClassName": "",
+              "footerStyle": Object {},
+              "getFooterProps": [Function],
+              "getHeaderProps": [Function],
+              "getProps": [Function],
+              "headerClassName": "",
+              "headerStyle": Object {},
+              "minWidth": 100,
+              "resizable": undefined,
+              "show": true,
+              "sortMethod": undefined,
+              "sortable": undefined,
+              "style": Object {},
+            },
+            "columns": Array [
+              Object {
+                "Filter": [Function],
+                "Header": "Tunnus",
+                "accessor": "symbol",
+              },
+              Object {
+                "Filter": [Function],
+                "Header": "Nimi",
+                "accessor": "name",
+              },
+              Object {
+                "Header": "Viitearvot",
+                "accessor": "reference_ranges",
+                "filterable": false,
+                "style": Object {
+                  "whiteSpace": "unset",
+                },
+              },
+              Object {
+                "Header": "Mittayksikkö",
+                "accessor": "unit",
+                "filterable": false,
+              },
+              Object {
+                "Cell": [Function],
+                "Header": "",
+                "filterable": false,
+              },
+            ],
+            "data": Array [],
+            "defaultExpanded": Object {},
+            "defaultFilterMethod": [Function],
+            "defaultFiltered": Array [],
+            "defaultPageSize": 10,
+            "defaultResized": Array [],
+            "defaultSortDesc": false,
+            "defaultSortMethod": [Function],
+            "defaultSorted": Array [],
+            "expanderDefaults": Object {
+              "filterable": false,
+              "resizable": false,
+              "sortable": false,
+              "width": 35,
+            },
+            "filterable": true,
+            "freezeWhenExpanded": false,
+            "getLoadingProps": [Function],
+            "getNoDataProps": [Function],
+            "getPaginationProps": [Function],
+            "getProps": [Function],
+            "getResizerProps": [Function],
+            "getTableProps": [Function],
+            "getTbodyProps": [Function],
+            "getTdProps": [Function],
+            "getTfootProps": [Function],
+            "getTfootTdProps": [Function],
+            "getTfootTrProps": [Function],
+            "getTheadFilterProps": [Function],
+            "getTheadFilterThProps": [Function],
+            "getTheadFilterTrProps": [Function],
+            "getTheadGroupProps": [Function],
+            "getTheadGroupThProps": [Function],
+            "getTheadGroupTrProps": [Function],
+            "getTheadProps": [Function],
+            "getTheadThProps": [Function],
+            "getTheadTrProps": [Function],
+            "getTrGroupProps": [Function],
+            "getTrProps": [Function],
+            "groupedByPivotKey": "_groupedByPivot",
+            "indexKey": "_index",
+            "loading": false,
+            "loadingText": "Ladataan...",
+            "multiSort": true,
+            "nestingLevelKey": "_nestingLevel",
+            "nextText": "Seuraava",
+            "noDataText": "Ei laboratoriotutkimuksia",
+            "ofText": "/",
+            "onExpandedChange": undefined,
+            "onFetchData": [Function],
+            "onFilteredChange": undefined,
+            "onPageChange": undefined,
+            "onPageSizeChange": undefined,
+            "onResizedChange": undefined,
+            "onSortedChange": undefined,
+            "originalKey": "_original",
+            "pageSizeOptions": Array [
+              5,
+              10,
+              20,
+              25,
+              50,
+              100,
+            ],
+            "pageText": "Sivu",
+            "pivotBy": undefined,
+            "pivotDefaults": Object {},
+            "pivotIDKey": "_pivotID",
+            "pivotValKey": "_pivotVal",
+            "previousText": "Edellinen",
+            "resizable": true,
+            "resolveData": [Function],
+            "rowsText": "Riviä",
+            "showPageJump": true,
+            "showPageSizeOptions": true,
+            "showPagination": true,
+            "showPaginationBottom": true,
+            "showPaginationTop": false,
+            "sortable": true,
+            "style": Object {},
+            "subRowsKey": "_subRows",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
